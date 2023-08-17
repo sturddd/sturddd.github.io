@@ -18,4 +18,121 @@
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
 ]]></content>
   </entry>
+  <entry>
+    <title>README</title>
+    <url>/2023/08/17/README/</url>
+    <content><![CDATA[<div align="right">
+  Language:
+  English | 
+  <a title="Chinese" href="docs/README_zh-CN.md">简体中文</a> | 
+  <a title="Chinese" href="docs/README_zh-TW.md">繁體中文</a>
+</div>
+
+<p><a href="https://xpoet.cn"><img  align="center" alt="Keep" 
+                     lazyload
+                     
+                     data-src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/hexo-theme-keep/keep-logo-slogan.svg"
+                     
+                ></a></p>
+<h1 id="hexo-theme-keep"><a href="#hexo-theme-keep" class="headerlink" title="hexo-theme-keep"></a>hexo-theme-keep</h1><p><strong>Keep</strong> is a simple and elegant <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a> theme. It makes you more focused on writing.</p>
+<p><a href="https://github.com/XPoet"><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://img.shields.io/badge/author-XPoet-violet.svg?style=flat-square"
+                      alt="Author"
+                ></a><br><a href="https://github.com/XPoet/hexo-theme-ils/blob/master/LICENSE"><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://img.shields.io/github/license/XPoet/hexo-theme-keep.svg?style=flat-square&logo=github"
+                      alt="Github License"
+                ></a><br><a href="https://github.com/XPoet/hexo-theme-ils/releases"><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://img.shields.io/github/release/XPoet/hexo-theme-keep.svg?style=flat-square&logo=github"
+                      alt="Github Release"
+                ></a><br><a href="https://www.npmjs.com/package/hexo-theme-keep"><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://img.shields.io/npm/v/hexo-theme-keep?color=red&logo=npm&style=flat-square"
+                      alt="NPM version"
+                ></a><br><a href="https://hexo.io/"><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://img.shields.io/badge/hexo-%3E=5.0.0-blue?style=flat-square&logo=hexo"
+                      alt="Required Hexo version"
+                ></a><br><a href="https://hexo.io/"><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://img.shields.io/badge/node-%3E=14.0-success.svg?style=flat-square&logo=Node.js&longCache=true"
+                      alt="Node.js Version"
+                ></a><br><a href="https://www.jsdelivr.com/package/npm/hexo-theme-keep"><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://img.shields.io/jsdelivr/npm/hm/hexo-theme-keep?style=flat-square&logo=jsdelivr"
+                      alt="jsDelivr hits"
+                ></a></p>
+<h2 id="star2-Online-Preview"><a href="#star2-Online-Preview" class="headerlink" title=":star2: Online Preview"></a>:star2: Online Preview</h2><ul>
+<li><strong><a class="link"   href="https://xpoet.cn/" >XPoet’s Blog<i class="fas fa-external-link-alt"></i></a></strong></li>
+<li><strong><a class="link"   href="https://keep.xpoet.cn/" >Keep demo website<i class="fas fa-external-link-alt"></i></a></strong></li>
+</ul>
+<blockquote>
+<p>If you want to put a link to your blog in the online preview list, you can give the author a PR.</p>
+</blockquote>
+<h2 id="rocket-Installation"><a href="#rocket-Installation" class="headerlink" title=":rocket: Installation"></a>:rocket: Installation</h2><p>If you’re using Hexo 5.0 or later, the simplest way to install is through npm:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># recommend</span></span><br><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-keep</span><br></pre></td></tr></table></figure>
+
+<p>Or you can clone the entire repository:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/XPoet/hexo-theme-keep themes/keep</span><br></pre></td></tr></table></figure>
+
+<p>After the installation, open Hexo config file and set <code>theme</code> variable to <code>keep</code>.</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">keep</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="wrench-Usage"><a href="#wrench-Usage" class="headerlink" title=":wrench: Usage"></a>:wrench: Usage</h2><p>Please see the official documents of <strong>Keep</strong>.</p>
+<ul>
+<li><strong><a class="link"   href="https://keep-docs.xpoet.cn/" >Keep official document<i class="fas fa-external-link-alt"></i></a></strong></li>
+<li><strong><a class="link"   href="https://keep-docs.xpoet.cn/tutorial/configuration-guide/base_info.html" >Keep theme configuration guide<i class="fas fa-external-link-alt"></i></a></strong></li>
+<li><strong><a class="link"   href="https://keep-docs.xpoet.cn/advanced/set-language.html" >Keep theme advanced usage<i class="fas fa-external-link-alt"></i></a></strong></li>
+</ul>
+<p>It is not recommended to directly modify any files in the <strong>Keep</strong> theme. Because this may cause errors (e.g. merge conflicts), and the modified files may be discarded when upgrading the theme.</p>
+<h2 id="dart-Update"><a href="#dart-Update" class="headerlink" title=":dart: Update"></a>:dart: Update</h2><p><strong>Keep</strong> releases new versions from time to time. You can update Keep by the following command.</p>
+<p>Install the latest version throuth npm:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line"><span class="comment"># recommend</span></span><br><span class="line">$ <span class="built_in">cd</span> hexo-site</span><br><span class="line">$ npm install hexo-theme-keep@latest</span><br></pre></td></tr></table></figure>
+
+<p>Or update to the latest master branch:</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/keep</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure>
+
+<h2 id="art-Contributing"><a href="#art-Contributing" class="headerlink" title=":art: Contributing"></a>:art: Contributing</h2><p>We welcome you to join the development of <strong>Keep</strong>. Please see <a class="link"   href="https://keep.xpoet.cn/2020/11/Keep-%E4%BB%A3%E7%A0%81%E8%B4%A1%E7%8C%AE%E6%8C%87%E5%8D%97/" >contributing guide<i class="fas fa-external-link-alt"></i></a>.</p>
+<h2 id="clapper-Contributors"><a href="#clapper-Contributors" class="headerlink" title=":clapper: Contributors"></a>:clapper: Contributors</h2><p>This project exists thanks to all the people who contribute.</p>
+<a href="https://github.com/XPoet/hexo-theme-keep/graphs/contributors">
+  <img  
+                     lazyload
+                     alt="image"
+                     data-src="https://contrib.rocks/image?repo=XPoet/hexo-theme-keep"
+                      
+                >
+</a>
+
+<h2 id="sparkling-heart-Thanks"><a href="#sparkling-heart-Thanks" class="headerlink" title=":sparkling_heart: Thanks"></a>:sparkling_heart: Thanks</h2><p><strong>Keep</strong> send special thanks to these great services that sponsor our core infrastructure:</p>
+<p><a href="https://github.com"><img  height="38" 
+                     lazyload
+                     alt="image"
+                     data-src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/hexo-theme-keep/GitHub-LOGO.5sq0168mirg0.png"
+                     
+                ></a></p>
+<blockquote>
+<p>GitHub allows us to host the Git repository and run the test suite.</p>
+</blockquote>
+<p><a href="https://www.jsdelivr.com"><img  height="38" 
+                     lazyload
+                     alt="image"
+                     data-src="https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/hexo-theme-keep/jsDelivr-LOGO.png"
+                     
+                ></a></p>
+<blockquote>
+<p>Thanks jsDelivr and UNPKG for providing public CDN service.</p>
+</blockquote>
+<h2 id="memo-License"><a href="#memo-License" class="headerlink" title=":memo: License"></a>:memo: License</h2><p><a class="link"   href="https://github.com/XPoet/hexo-theme-keep/blob/master/LICENSE" >AGPL-3.0<i class="fas fa-external-link-alt"></i></a>  </p>
+<p>Copyright © 2020-present XPoet</p>
+]]></content>
+  </entry>
 </search>
