@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2023/08/16/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>README</title>
     <url>/2023/08/17/README/</url>
     <content><![CDATA[<div align="right">
@@ -118,21 +136,109 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/08/16/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>
+    <title>1</title>
+    <url>/2023/08/17/01/</url>
+    <content><![CDATA[<h1 id="折腾01-自己接一条支持3-5寸硬盘的Sata供电线"><a href="#折腾01-自己接一条支持3-5寸硬盘的Sata供电线" class="headerlink" title="折腾01 自己接一条支持3.5寸硬盘的Sata供电线"></a>折腾01 自己接一条支持3.5寸硬盘的Sata供电线</h1><h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>主要是闲着没事，想把手边废弃的3.5寸古董硬盘废物利用，让它再继续发光发热。</p>
+<p>手边没有易驱线，去某电商平台查了一下有点贵。</p>
+<p>2.0 21.5，3.0 26.8。</p>
+<p>都抵我两顿早餐钱了。</p>
+<p>本着能省尽省，一直折腾的原则，我毫不犹豫地选择了自己动手。</p>
+<p>于是就有了这条支持3.5寸硬盘的Sata供电线的故事。</p>
+<h2 id="前奏"><a href="#前奏" class="headerlink" title="前奏"></a>前奏</h2><p>我在长期冲浪中发现了这两个前辈的教程：</p>
+<p><a class="link"   href="https://www.jianshu.com/p/d9e398641354" >笔记本光驱SATA接口改造外接3.5寸台式机硬盘 - 简书 (jianshu.com)<i class="fas fa-external-link-alt"></i></a>)</p>
+<p><a class="link"   href="https://www.jb51.net/softjc/437553.html" >笔记本光驱接口怎么外接台式机硬盘?_笔记本_硬件教程_脚本之家 (jb51.net)<i class="fas fa-external-link-alt"></i></a></p>
+<p>他们都是将光驱外接3.5寸硬盘，但也提到了外接给硬盘供电的方法。</p>
+<p>这至少证明了这样的可行性。在查阅大量资料并综合本人情况后采取了他们的部分思路。</p>
+<p>最后根据手边已有的材料，决定采取用12v dc+5v usb带动古董硬盘。</p>
+<p>硬盘是Seagate(希捷)的，500GB，启动12v 0.522a，运行5v 0.72a。</p>
+<p>找到了一条12v2a的dc线，一条Usb转Micro Usb的坏掉的数据线，一条大4pin转Sata15pin的电源线，和一条接风扇的dc母转大4pin供电线。</p>
+<p>于是开始动手。</p>
+<h2 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h2><p>具体原理是3.5寸Sata的供电是由12v+5v+3.5v实现的，2.5寸只需要5v+3.5v的电，剩下12v的针脚悬空。</p>
+<p>3.5v的供电可以不要，是设计来提高电压的稳定性的。而大4pin转Sata电源线只保留了12v（黄）+接地线（黑）+5v（红）+接地线。（毕竟3.5v可有可无</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/t1HyThbxm48DXKF.jpg"
+                      alt="改装后的大4pin转Sata线"
+                ></p>
+<p>而另一条Dc转大4pin只有一条12v（红）+一条接地线（黑），故只能提供12v的供电。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/a6ZYxNO4Ke1qBQW.jpg"
+                      alt="dc母转大4pin线"
+                ></p>
+<p>但是3.5寸硬盘需要12v+5v，正巧Usb2.0可以提供5v供电。</p>
+<p>而那两位前辈采取的是使用光驱Sata接口7+6p转Sata7+15p接口本身主板供给的5v供电。当然直接用Sata延长线的5v也可以。但我的目的可不是给光驱位加装硬盘，再说这样会使笔记本失去便携性。</p>
+<p>正巧本子上留有过时的Power-Esata口，但一查Power-Esata转Sata22p还是要15r，不如自己动手。</p>
+<p>也很巧翻出了一条Esata转Sata线，测试后发现完好，测试是短接启动了台式机电源供电测的。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/fdehoPpCbZOETqu.jpg"
+                      alt="Esata转Sata线"
+                ></p>
+<p>于是就可以把Usb转Micro-Usb线上Usb的两条供电线接到大4pin转Sata供电的5v线上。</p>
+<p>而Usb转Micro-Usb线这条线是坏了的，剪开后可以看见红（5v）+黑（接地线）两条供电和白+蓝的一正一负两条数据线。测了一下发现供电是好的。那就很好啊，就可以把红和黑线对应接上去。</p>
+<p>先剥开绝缘层，再把铜丝缠起来，挺随意的，只要互相接触了随便怎么缠都行。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/FWZrcgua6vh12mI.jpg"
+                      alt="IMG_3700"
+                ></p>
+<p>然后就把dc接好，Usb接电脑Usb口上，Sata接硬盘上，Esata线两端接好，通电，老古董就转起来了。</p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/bvIOHwZ4UjoSCuA.jpg"
+                      alt="运行时"
+                ></p>
+<h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/mJMZc2GyFAOqL1p.jpg"
+                      alt="dc线"
+                ></p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/mW5UdND874jfFu1.jpg"
+                     
+                ></p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/lrEd3pmGiN6h2yZ.jpg"
+                     
+                ><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/hO2lF4AIP1DwSm8.jpg"
+                      alt=" "
+                ><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/2lZS6EUcnyp91oz.jpg"
+                      alt="废品"
+                ></p>
+<p><img  
+                     lazyload
+                     alt="image"
+                     data-src="https://s2.loli.net/2024/03/03/9wmEMkuSHV35gtL.jpg"
+                      alt="整体"
+                ></p>
+<p>线确实很长，Usb转Micor-Usb是1.5m的，dc线是2m的……</p>
+<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>我的第一篇博客。</p>
+<p>写的不好请见谅-_-</p>
+<p>qwq</p>
+<p>第一次动手改线。</p>
+<p>爱好：硬件改造、捡垃圾（自己就超垃圾）、编程、摸鱼……</p>
+<p>23-08-16</p>
+<p>by STuRD</p>
 ]]></content>
+      <tags>
+        <tag>自己接一条支持3.5寸硬盘的Sata供电线</tag>
+      </tags>
   </entry>
 </search>
