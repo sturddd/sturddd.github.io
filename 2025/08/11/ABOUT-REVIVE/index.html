@@ -6,7 +6,13 @@
     <meta name="keywords" content="Hexo Theme Keep">
     <meta name="description" content="Hexo Theme Keep">
     <meta name="author" content="sturddd">
-    
+    <style>
+
+  p {
+    text-indent: 2em; /* 设置首行缩进 */
+  }
+
+    </style>
     <title>
         
             ABOUT REVIVE |
@@ -294,7 +300,7 @@
             
                 <span class="meta-info-item post-update-date">
                     <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                    <span class="datetime" data-updated="Mon Aug 11 2025 22:55:10 GMT+0800">2025-08-11 22:55:10</span>
+                    <span class="datetime" data-updated="Tue Aug 12 2025 13:54:49 GMT+0800">2025-08-12 13:54:49</span>
                 </span>
             
         
@@ -326,12 +332,12 @@
 
                     
                          <h2 id="艰难复健IN💪"><a href="#艰难复健IN💪" class="headerlink" title="艰难复健IN💪"></a>艰难复健IN💪</h2><p>​		耗时2d⏳重建<u>sturddd’s blog</u>，已经很久没有如此长时的专一投入了⏰。</p>
-<p>​		此前一篇（旧博客01）已被苯人雪藏（<del>大抵可能也无人在意😓</del>），主要新增评论、友链、相册、工具以及加上了几个<em>social contact links</em>；<em>About</em>咕咕ing，等腾出时间披阅一番。</p>
-<p>​		介绍下本站，23&#x2F;8建站、首篇博客—24&#x2F;3本地迁移—25&#x2F;1域名更换—25&#x2F;8重构，曾用域名：<em>sturd.us.kg&#x2F;</em>。</p>
-<p>​		主要使用<em>hexo</em>生成静态网页并推送至<em>github</em>仓库，目前由<em>github page</em>服务托管。</p>
-<p>​		使用主题为<em>Keep</em>，评论功能为<em>giscus</em>（评论需要GitHub登录）。</p>
+<p>​		            此前一篇（旧博客01）已被苯人雪藏（<del>大抵可能也无人在意😓</del>），主要新增评论、友链、相册、工具以及加上了几个<em>social contact links</em>；<em>About</em>咕咕ing，等腾出时间披阅一番。</p>
+<p>​		            介绍下本站，23&#x2F;8建站、首篇博客—24&#x2F;3本地迁移—25&#x2F;1域名更换—25&#x2F;8重构，曾用域名：<em>sturd.us.kg&#x2F;</em>。</p>
+<p>                     主要使用<em>hexo</em>生成静态网页并推送至<em>github</em>仓库，目前由<em>github page</em>服务托管。</p>
+<p>​		            使用主题为<em>Keep</em>，评论功能为<em>giscus</em>（评论需要GitHub登录）。</p>
 <blockquote>
-<p>​		如此惊人地耗时2day主要是苯人太蠢力😵。先是yml缩进报错被折磨良久，后面一样一样按序随官方文档走一趟又耗时不短。但最折磨的是昨天熬到凌晨差不多配置好了推送到GitHub后样式直接乱了。。。谁懂打开网页一个硕大的b站图标横在正中央的救赎感。又强忍睡意看了一会儿，怀疑GitHub缓存处理太慢导致的，便倒头就睡了。今天早上起来打开，发现其他界面仍有多处错位&#x2F;错误缩放，以及最开始采用的waline加载不了。先着手解决waline，查阅官方文档及discussion发现vercel+leancloud部署后可能因为网络DNS污染<a class="link"   target="_blank" rel="noopener" href="https://lisenhui.cn/blog/use-custom-domain-active-vercel-waline.html" >无法访问<i class="fas fa-external-link-alt"></i></a>。然鹅部署得到的server url确能单独打开并使用评论，管理界面等一切正常，但是<del>tmd</del>就是填进config后就是提交不了评论failed to fetch，尝试时偶尔还加载不出评论框。后来发现打开pjax后可以正常显示出评论组件，以及<u>failed to fetch调试报错CORS header ‘Access-Control-Allow-Origin’ missing 已拦截跨源请求：同源策略禁止读取位于 http:xxx 的远程资源</u>。没学过网络的我只好寻求在哪里加上ACAO，却久觅不得。尝试绑定其他域名以解决，苦于囊中羞涩，试着申请eu.org，提交后看到一位老哥今年2月说其已<a class="link"   target="_blank" rel="noopener" href="https://www.cnblogs.com/eslzzyl/p/17765702.html" >久未审核<i class="fas fa-external-link-alt"></i></a>，又尝试freenom未果（不接受新注册请求）。绝望之际尝试按官网排查纰漏，del后重新部署了一遍，结果无异。又根据官网嵌入教程copy下来改了url写了个本地html，报错不改。再次翻到改域名解决看的老哥的博客，扒源码扒到了他的server url，尝试填入本地html后成功提交评论（对不住了老哥盗用了你的server对不起🙏）。于是断定是server而非config的问题（对不起Keep错怪你了🙏）（毕竟单独用一切正常欸awa）。这条路就被堵死了。。。于是转战giscus10min搞定。除了只能GitHub登录（甚至不能匿名（毕竟是用github discussion）其他挺好的。然后还有样式紊乱的issue，又怀疑是Keep搞鬼，毕竟本地server看起来一切正常，一部署到github就出问题。曲线救国上菜鸟速通了html格式和css，发现public和git文件夹里生成的东西就和localhost里的不一样了。琢磨了相当久localhost的文件怎么会不一样。翻了n久源码。未竟。吃完晚饭回来（是货真价实的整整两天o）qwq突然兴起开搜，发现居然有匹配的，点进第一个<a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/counting_stars123/article/details/104594693" >csdn<i class="fas fa-external-link-alt"></i></a>发现只写了短短一行的时候，我沉默了。我悄悄把url填上deploy，一刷新，全都正常了。。。我之前翻config也看到了这个没填，demo我以为只用填keep的config，官方文档和教程也没让填a(owo我哭库😭也有可能是我眼瞎🤯）。然后。。我就来写此文了。怀着满腔愤懑。写此处时窗外传来轰鸣，邻居小孩在和他妈吵架😨，虾仁，我貌似几年前也差不多这样，不管怎么说感觉他惨惨的，一惨父母，二惨他自己。嘶哑的嗓音，间隙的砰击声，尖锐的女声，猫叫，听着听着我也只好将头左右摇个两下，再顺势低头吐出一道微弱的叹息。</p>
+<p>​		            如此惊人地耗时2day主要是苯人太蠢力😵。先是yml缩进报错被折磨良久，后面一样一样按序随官方文档走一趟又耗时不短。但最折磨的是昨天熬到凌晨差不多配置好了推送到GitHub后样式直接乱了。。。谁懂打开网页一个硕大的b站图标横在正中央的救赎感。又强忍睡意看了一会儿，怀疑GitHub缓存处理太慢导致的，便倒头就睡了。今天早上起来打开，发现其他界面仍有多处错位&#x2F;错误缩放，以及最开始采用的waline加载不了。先着手解决waline，查阅官方文档及discussion发现vercel+leancloud部署后可能因为网络DNS污染<a class="link"   target="_blank" rel="noopener" href="https://lisenhui.cn/blog/use-custom-domain-active-vercel-waline.html" >无法访问<i class="fas fa-external-link-alt"></i></a>。然鹅部署得到的server url确能单独打开并使用评论，管理界面等一切正常，但是<del>tmd</del>就是填进config后就是提交不了评论failed to fetch，尝试时偶尔还加载不出评论框。后来发现打开pjax后可以正常显示出评论组件，以及<u>failed to fetch调试报错CORS header ‘Access-Control-Allow-Origin’ missing 已拦截跨源请求：同源策略禁止读取位于 http:xxx 的远程资源</u>。没学过网络的我只好寻求在哪里加上ACAO，却久觅不得。尝试绑定其他域名以解决，苦于囊中羞涩，试着申请eu.org，提交后看到一位老哥今年2月说其已<a class="link"   target="_blank" rel="noopener" href="https://www.cnblogs.com/eslzzyl/p/17765702.html" >久未审核<i class="fas fa-external-link-alt"></i></a>，又尝试freenom未果（不接受新注册请求）。绝望之际尝试按官网排查纰漏，del后重新部署了一遍，结果无异。又根据官网嵌入教程copy下来改了url写了个本地html，报错不改。再次翻到改域名解决看的老哥的博客，扒源码扒到了他的server url，尝试填入本地html后成功提交评论（对不住了老哥盗用了你的server对不起🙏）。于是断定是server而非config的问题（对不起Keep错怪你了🙏）（毕竟单独用一切正常欸awa）。这条路就被堵死了。。。于是转战giscus10min搞定。除了只能GitHub登录（甚至不能匿名（毕竟是用github discussion）其他挺好的。然后还有样式紊乱的issue，又怀疑是Keep搞鬼，毕竟本地server看起来一切正常，一部署到github就出问题。曲线救国上菜鸟速通了html格式和css，发现public和git文件夹里生成的东西就和localhost里的不一样了。琢磨了相当久localhost的文件怎么会不一样。翻了n久源码。未竟。吃完晚饭回来（是货真价实的整整两天o）qwq突然兴起开搜，发现居然有匹配的，点进第一个<a class="link"   target="_blank" rel="noopener" href="https://blog.csdn.net/counting_stars123/article/details/104594693" >csdn<i class="fas fa-external-link-alt"></i></a>发现只写了短短一行的时候，我沉默了。我悄悄把url填上deploy，一刷新，全都正常了。。。我之前翻config也看到了这个没填，demo我以为只用填keep的config，官方文档和教程也没让填a(owo我哭库😭也有可能是我眼瞎🤯）。然后。。我就来写此文了。怀着满腔愤懑。写此处时窗外传来轰鸣，邻居小孩在和他妈吵架😨，虾仁，我貌似几年前也差不多这样，不管怎么说感觉他惨惨的，一惨父母，二惨他自己。嘶哑的嗓音，间隙的砰击声，尖锐的女声，猫叫，听着听着我也只好将头左右摇个两下，再顺势低头吐出一道微弱的叹息。</p>
 </blockquote>
 <h4 id="Issues-ideas（今后的打算）"><a href="#Issues-ideas（今后的打算）" class="headerlink" title="Issues&amp;ideas（今后的打算）"></a>Issues&amp;ideas（今后的打算）</h4><ul>
 <li><input disabled="" type="checkbox"> home-cover功能开启无效</li>
@@ -339,7 +345,7 @@
 <li><input disabled="" type="checkbox"> 相册界面升级及照片上传</li>
 <li><input disabled="" type="checkbox"> About更改</li>
 <li><input disabled="" type="checkbox"> 添加recommend界面用于安利😋</li>
-<li><input disabled="" type="checkbox"> &#x3D;&#x3D;Keep writing. Keep loving.&#x3D;&#x3D;</li>
+<li><input disabled="" type="checkbox"> <b>Keep writing. Keep loving.</b></li>
 </ul>
 <p> <a target="_blank" rel="noopener" href="https://xpoet.cn"><img   align="center" alt="Keep"  
                        lazyload
